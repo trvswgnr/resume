@@ -1,4 +1,7 @@
-<?php include 'db.php'; ?>
+<?php
+// start the database connection
+include 'db.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
