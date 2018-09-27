@@ -1,5 +1,5 @@
 <?php
-$skills = $conn->query("SELECT skill FROM skills");
+$skills = $conn->query("SELECT * FROM skills");
 $skills = $skills->fetchAll();
 ?>
 <div class="skills">
