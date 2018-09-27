@@ -473,3 +473,21 @@ p {
 .show-on-home {
   display: none;
 }
+
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skill {
+    width: 150px;
+    margin-bottom: 0.7em;
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.skill:before {
+    content: '•';
+    color: #4ebb6c;
+    padding-right: 0.5em;
+}
