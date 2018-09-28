@@ -452,7 +452,10 @@ p {
 }
 
 .skill {
-	width: 150px;
+	@media (min-width: 500px) {
+		width: 150px;
+	}
+	width: 50%;
 	margin-bottom: 0.7em;
 	font-size: 0.8em;
 	color: rgba($color__foreground, 0.5);
@@ -465,8 +468,11 @@ p {
 }
 
 .links-list {
-	display: flex;
-	flex-wrap: wrap;
+	@media (min-width: 755px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	padding-bottom: 0.5em;
 }
 
