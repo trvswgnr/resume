@@ -4,7 +4,8 @@
 	"description": "My dynamic personal résumé/CV, written in PHP. Pulls skills and experience data from SQL database.",
 	"main": "index.js",
 	"scripts": {
-		"dev": "NODE_ENV=development webpack-dev-server --mode=development --hot",
+		"dev": "webpack-dev-server --progress --colors --hot",
+		"start": "webpack --mode development && npm run dev",
 		"build": "webpack --mode production"
 	},
 	"repository": {
