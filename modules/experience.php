@@ -3,7 +3,7 @@ $jobs = $conn->query("SELECT * FROM experience");
 $jobs = $jobs->fetchAll();
 ?>
 <div class="experience">
-	<h3>Work Experience</h3>
+	<h3>Experience</h3>
 	<?php foreach ($jobs as $job) : ?>
 		<div class="row">
 			<div class="leftCol">
