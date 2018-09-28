@@ -24,30 +24,8 @@ include 'db.php';
 			include 'modules/experience.php';
 			include 'modules/soft-skills.php';
 			include 'modules/education.php';
+			include 'modules/links.php';
 			?>
-			<div class="links">
-				<h3>Links</h3>
-				<div class="row">
-					<div class="col-6">
-						<h4><i class="fa fa-lg fa-behance" aria-hidden="true"></i></h4>
-						<h5><a href="https://www.behance.net/traviswagner">https://www.behance.net/traviswagner</a></h5>
-					</div>
-					<div class="col-6">
-						<h4><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></h4>
-						<h5><a href="https://www.twitter.com/trvswgnr">https://www.twitter.com/trvswgnr</a></h5>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-6">
-						<h4><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></h4>
-						<h5><a href="https://www.linkedin.com/in/travisawagner">https://www.linkedin.com/in/travisawagner</a></h5>
-					</div>
-					<div class="col-6">
-						<h4><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></h4>
-						<h5><a href="https://www.facebook.com/trvswgnr">https://www.facebook.com/trvswgnr</a></h5>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </body>
