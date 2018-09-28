@@ -1,4 +1,4 @@
-import './main.scss';
+import './scss/main.scss';
 
 function someFun() {
 	const x = 'hello';
