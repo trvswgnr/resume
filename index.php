@@ -12,26 +12,18 @@ include 'db.php';
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,900i|Raleway:300,400,700'>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dist/style.css">
 </head>
 
 <body>
 	<div class="container resume">
 		<?php include 'modules/sidebar.php'; ?>
 		<div class="main">
-			<?php include 'modules/skills.php'; ?>
-			<?php include 'modules/experience.php'; ?>
-			<div class="softskills">
-				<h3>Soft Skills</h3>
-				<ul class="chips">
-					<li>Research</li>
-					<li>Communication</li>
-					<li>Critical Thinking</li>
-					<li>Leadership</li>
-					<li>Flexibility</li>
-				</ul>
-			</div>
-			<hr/>
+			<?php
+			include 'modules/skills.php';
+			include 'modules/experience.php';
+			include 'modules/soft-skills.php';
+			?>
 			<div class="education">
 				<h3>Education</h3>
 				<div class="row">
