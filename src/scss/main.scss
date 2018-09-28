@@ -454,78 +454,7 @@ p {
 	}
 }
 
-@media only print {
-	body {
-		background: #ffffff !important;
-	}
-
-	.schoolLogo {
-		box-shadow: none !important;
-		border: 1px solid #d5d5e6;
-	}
-
-	.profilePic {
-		box-shadow: none !important;
-		border: 1px solid #d5d5e6;
-	}
-
-	.row {
-		background: #f5f5f9;
-	}
-
-	.topsec {
-		background: transparent !important;
-	}
-
-	.leftCol h4 {
-		background: $color__secondary !important;
-		color: white !important;
-	}
-
-	.skills .col-6 + .col-6 {
-		border: none !important;
-	}
-
-	.bottomsec,
-	.main {
-		border: 1px solid #f2f2f7 !important;
-		background: #ffffff !important;
-	}
-
-	.bottomsec hr,
-	.main hr {
-		background: #d5d5e6 !important;
-	}
-
-	.bottomsec p,
-	.bottomsec li,
-	.bottomsec h3,
-	.bottomsec h5,
-	.bottomsec .name h1,
-	.main p,
-	.main li,
-	.main h3,
-	.main h5,
-	.main .name h1 {
-		color: $color__box !important;
-	}
-
-	.bottomsec .chips,
-	.main .chips {
-		display: inline-block;
-	}
-
-	.bottomsec .chips li,
-	.main .chips li {
-		display: inline-block;
-		color: #ffffff !important;
-	}
-
-	.bottomsec .links h4,
-	.main .links h4 {
-		color: white;
-	}
-}
+@media only print {}
 
 .show-on-home {
 	display: none;
