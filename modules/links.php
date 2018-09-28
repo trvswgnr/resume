@@ -6,7 +6,6 @@ $links = [
 	"facebook" => "https://www.facebook.com/trvswgnr"
 ];
 ?>
-
 <div class="links">
 	<h3>Links</h3>
 	<div class="links-list">
