@@ -15,6 +15,8 @@ $color__secondary: $deep-purple;
 $color__foreground: black;
 $color__heading: lighten($color__foreground, 20%);
 
+@import 'print';
+
 body {
 	font-family: Raleway;
 	margin: 0;
@@ -454,8 +456,6 @@ p {
 	}
 }
 
-@media only print {}
-
 .show-on-home {
 	display: none;
 }
@@ -488,3 +488,4 @@ p {
 	width: 50%;
 	margin-bottom: 1em;
 }
+
