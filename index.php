@@ -23,38 +23,8 @@ include 'db.php';
 			include 'modules/skills.php';
 			include 'modules/experience.php';
 			include 'modules/soft-skills.php';
+			include 'modules/education.php';
 			?>
-			<div class="education">
-				<h3>Education</h3>
-				<div class="row">
-					<div class="rightCol">
-						<h4>Full Sail University</h4>
-						<h5>B.S. in Music Production <span>•</span> Winter Park, FL</h5>
-					</div>
-					<div class="rightCol2">
-						<div class="schoolLogo"><img src="https://myfullsailjourney.files.wordpress.com/2013/04/fullsail1.png" alt="" /></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="rightCol">
-						<h4>Ferris State University</h4>
-						<h5>Graphic Design <span>•</span> Big Rapids, MI</h5>
-					</div>
-					<div class="rightCol2">
-						<div class="schoolLogo"><img class="ferrisLogo" src="https://www.ferris.edu/HTMLS/administration/advance/standards/logos/thumbnails/01-BoxFlameFullColor.png" alt="" /></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="rightCol">
-						<h4>Constantine High School</h4>
-						<h5>H.S. Diploma <span>•</span> Constantine, MI</h5>
-					</div>
-					<div class="rightCol2">
-						<div class="schoolLogo"><img class="ctownLogo" src="http://travisawagner.com/wp-content/uploads/2017/04/ctown-falcons.gif" alt="" /></div>
-					</div>
-				</div>
-			</div>
-			<hr/>
 			<div class="links">
 				<h3>Links</h3>
 				<div class="row">
