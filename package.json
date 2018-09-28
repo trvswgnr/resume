@@ -17,6 +17,10 @@
 	"bugs": {
 		"url": "https://github.com/trvswgnr/resume/issues"
 	},
+  "browserslist": [
+    "last 2 versions",
+    "> 2%"
+  ],
 	"homepage": "https://github.com/trvswgnr/resume#readme",
 	"devDependencies": {
 		"autoprefixer": "^9.1.5",
