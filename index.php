@@ -11,7 +11,7 @@ include 'db.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,900i|Raleway:300,400,700'>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dist/style.css">
 </head>
 
 <body>
