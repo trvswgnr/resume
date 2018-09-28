@@ -491,3 +491,14 @@ p {
     color: #4ebb6c;
     padding-right: 0.5em;
 }
+
+.links-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 0.5em;
+}
+
+.link-item {
+	width: 50%;
+	margin-bottom: 1em;
+}
