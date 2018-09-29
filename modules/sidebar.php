@@ -19,7 +19,7 @@
 				<h4>Phone</h4>
 				<p><a href="tel:15743617729">+1 (574) 361-7729</a></p>
 				<h4>Email</h4>
-				<p><a href="mailto:trvswgnr@gmail.com">trvswgnr@gmail.com</a></p>
+				<p><a href="mailto:travis@travisaw.com">travis@travisaw.com</a></p>
 			</div>
 			<div class="col-m-6">
 				<h4>GitHub</h4>
