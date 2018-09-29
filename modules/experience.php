@@ -4,7 +4,12 @@ $jobs = $jobs->fetchAll();
 ?>
 <div class="experience">
 	<h3>Experience</h3>
-	<?php foreach ($jobs as $job) : ?>
+	<?php
+	$i = 0;
+	foreach ($jobs as $job) :
+	$i++;
+	if ($i > 3) { break; }
+	?>
 		<div class="row">
 			<div class="leftCol">
 				<h4><?php echo $job['year']; ?></h4>
